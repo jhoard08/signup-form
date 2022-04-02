@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Document</title>
-</head>
-<body>
-    <aside>
+  </head>
+  <body>
+    <main class="container">
+      <aside>
         <h1>Odin</h1>
-    </aside>
-    <section>
-        <p>This is not a real online service! You know you need something like this in your life
-            to help you realize your deepest dreams. <span>Sign up <em>now</em> to get started</span>
-        </p>
-    </section>
-    <section>
-        <form action="some-fake-url">
-            <legend>Let's do this!</legend>
-            <ul class="left">
-                <li>
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" name="first_name" id="firstName" required>
-                </li>
-                <li>
-                    <label for="mail">EMAIL</label>
-                    <input type="email" name="email" id="mail" required>
-                </li>
-                <li>
-                    <label for="pwd">PASSWORD</label>
-                    <input type="password" name="password" id="pwd" required>
-                </li>
-            </ul>
-            <ul class="right">
-                <li>
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" name="last_name" id="lastName">
-                </li>
-                <li>
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" name="telephone" id="phone">
-                </li>
-                <li>
-                    <label for="cpwd">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm_password" id="cpwd">
-                </li>
-            </ul>
+      </aside>
+      <section class="userData">
+        <section class="contentText">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
+          </p>
+          <span>Sign up <em>now</em> to get started</span>
+        </section>
+        <form action="some-fake-url" class="formContainer">
+          <legend>Let's do this!</legend>
+          <ul class="left">
+            <li>
+              <label for="firstName">FIRST NAME</label>
+              <input type="text" name="first_name" id="firstName" required />
+            </li>
+            <li>
+              <label for="mail">EMAIL</label>
+              <input type="email" name="email" id="mail" required />
+            </li>
+            <li>
+              <label for="pwd">PASSWORD</label>
+              <input type="password" name="password" id="pwd" required />
+            </li>
+          </ul>
+          <ul class="right">
+            <li>
+              <label for="lastName">LAST NAME</label>
+              <input type="text" name="last_name" id="lastName" />
+            </li>
+            <li>
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" name="telephone" id="phone" />
+            </li>
+            <li>
+              <label for="cpwd">CONFIRM PASSWORD</label>
+              <input type="password" name="confirm_password" id="cpwd" />
+            </li>
+          </ul>
         </form>
-    </section>
-</body>
-</html>`
+        <section class="btn">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="#">Log In!</a></p>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
+`

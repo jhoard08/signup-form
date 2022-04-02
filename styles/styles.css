@@ -1,3 +1,39 @@
-p{
-    color: blue;
+body {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
 }
+
+aside {
+    width: 40%;
+    float: left;
+    height: 100vh;
+    text-align: center;
+    background-image: url('../images/ben-hershey-qegSxvH9U9Y-unsplash.jpg');
+    background-size: cover;
+}
+
+.contentText {
+    font-size: 30px;
+    width: 60%;
+    margin: 50px 0px;
+}
+
+.userData {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.btn {
+    align-self:flex-start;
+    margin-left: 60px;
+}
+
+
